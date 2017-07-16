@@ -28,11 +28,21 @@ public class Arrays {
 //            System.out.println(arr[i]);
         }
 
+        // Sol 1
+        /*
         int[] newArr = new int[n];
         for (int j=0; j<n;j++){
             newArr[j]=arr[n-j-1];
             System.out.print(newArr[j] + " ");
         }
+        */
+
+        // Sol 2
+
+        for (int j=n-1; j>=0; j--){
+            System.out.print(arr[j] + " ");
+        }
+
     }
 
 
