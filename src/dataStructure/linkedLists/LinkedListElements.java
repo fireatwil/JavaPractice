@@ -6,6 +6,6 @@ package dataStructure.linkedLists;
 public class LinkedListElements {
 
     private Node head = null;
-    
+
 
 }
